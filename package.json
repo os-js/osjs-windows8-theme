@@ -1,0 +1,53 @@
+{
+  "name": "@osjs/windows8-theme",
+  "version": "4.0.2",
+  "description": "OS.js v3 Windows 8 Style Theme",
+  "files": [
+    "dist/",
+    "metadata.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint index.js",
+    "stylelint": "stylelint index.scss src/**/*.scss",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "prepublishOnly": "npm run eslint && npm run stylelint && rm -rf ./dist/* && NODE_ENV=production npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/os-js/osjs-windows8-theme.git"
+  },
+  "keywords": [
+    "osjs"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "@babel/runtime": "^7.0.0-beta.54",
+    "babel-loader": "^8.0.0-beta.4",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.1.0",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "sass-loader": "^7.0.3",
+    "stylelint": "^9.3.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.1.3",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/os-js/osjs-windows8-theme/issues"
+  },
+  "homepage": "https://github.com/os-js/osjs-windows8-theme#readme",
+  "osjs": {
+    "type": "package"
+  }
+}
