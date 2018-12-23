@@ -2,10 +2,12 @@
   "type": "theme",
   "name": "Windows8Theme",
   "title": {
-    "en_EN": "Windows 8 Style Theme"
+    "en_EN": "Windows 8 Style Theme",
+    "sl_SI": "Tema Windows 8"
   },
   "description": {
-    "en_EN": "A style theme that imitates the Windows 8 look"
+    "en_EN": "A style theme that imitates the Windows 8 look",
+    "sl_SI": "Tema, ki posnema videz sistema Windows 8"
   },
   "files": [
     "main.js",
