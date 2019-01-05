@@ -29,8 +29,8 @@
  */
 
 import './index.scss';
+import osjs from 'osjs';
 import {name} from './metadata.json';
 import {register} from './src/base/src/theme.js';
 
-OSjs.make('osjs/packages')
-  .register(name, register);
+osjs.register(name, register);
