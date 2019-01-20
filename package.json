@@ -1,6 +1,6 @@
 {
   "name": "@osjs/windows8-theme",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "OS.js v3 Windows 8 Style Theme",
   "files": [
     "dist/",
