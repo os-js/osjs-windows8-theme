@@ -63,7 +63,6 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
-              minimize,
               sourceMap: true
             }
           }
