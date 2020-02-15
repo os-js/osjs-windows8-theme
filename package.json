@@ -1,6 +1,6 @@
 {
   "name": "@osjs/windows8-theme",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "OS.js v3 Windows 8 Style Theme",
   "files": [
     "dist/",
@@ -36,7 +36,7 @@
     "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "sass-loader": "^8.0.2",
-    "stylelint": "^13.1.0",
+    "stylelint": "^13.2.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.14.2",
     "webpack": "^4.41.6",
@@ -66,9 +66,16 @@
       "stylelint-scss"
     ],
     "rules": {
-      "at-rule-no-unknown": [true, {
-        "ignoreAtRules": ["extend", "mixin", "include"]
-      }]
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "extend",
+            "mixin",
+            "include"
+          ]
+        }
+      ]
     },
     "extends": "stylelint-config-standard"
   },
