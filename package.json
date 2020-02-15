@@ -9,7 +9,7 @@
   "scripts": {
     "test": "npm run eslint && npm run stylelint",
     "eslint": "eslint index.js",
-    "stylelint": "stylelint index.scss src/**/*.scss",
+    "stylelint": "stylelint index.scss",
     "build": "webpack",
     "watch": "webpack --watch",
     "prepublishOnly": "npm run test && rm -rf ./dist/* && NODE_ENV=production npm run build"
