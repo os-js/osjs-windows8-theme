@@ -5,13 +5,15 @@
     "en_EN": "Windows 8 Style Theme",
     "de_DE": "Windows 8 Thema",
     "fr_FR": "Thème Windows 8",
-    "sl_SI": "Tema Windows 8"
+    "sl_SI": "Tema Windows 8",
+    "pt_BR": "Tema do Windows 8"
   },
   "description": {
     "en_EN": "A style theme that imitates the Windows 8 look",
     "de_DE": "Ein Thema, das den Look von Windows 8 imitiert.",
     "fr_FR": "Un thème qui imite l'apparence de Windows 8",
-    "sl_SI": "Tema, ki posnema videz sistema Windows 8"
+    "sl_SI": "Tema, ki posnema videz sistema Windows 8",
+    "pt_BR": "Tema que imita o estilo do sistema operacional Windows 8"
   },
   "files": [
     "main.js",
